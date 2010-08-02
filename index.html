@@ -41,7 +41,7 @@
             </li>
           </ul>
           <div class="panes">
-            <div class="vulnassess">
+            <div class="pane vulnassess">
               <div class="paneheader">
                 <span>Vulnerability Assessment</span>
               </div>
@@ -66,7 +66,7 @@
                 </div>
               </div>
             </div>
-            <div class="penntest">
+            <div class="pane penntest">
               <div class="paneheader">
                 <span>Penetration Testing</span>
               </div>
@@ -89,7 +89,7 @@
                 </div>
               </div>
             </div>
-            <div class="incidents">
+            <div class="pane incidents">
               <div class="paneheader">
                 <span>Incident Handling</span>
               </div>
@@ -113,7 +113,7 @@
                 </div>
               </div>
             </div>
-            <div class="training">
+            <div class="pane training">
               <div class="paneheader">
                 <span>Training Services</span>
               </div>
@@ -175,7 +175,7 @@
     <script type="text/javascript" src="jquery.tools.min.js"></script>
     <script type="text/javascript" > 
       $(function() {
-	      $("ul.tabs").tabs("div.panes > div");
+	      $("ul.tabs").tabs("div.panes > .pane");
       });
     </script> 
   </body>

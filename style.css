@@ -165,7 +165,7 @@ li.training{
   background: url(resources/services-nav-bar/icons/png/icon-training.png) no-repeat center;
 }
 
-.panes div{
+.pane{
   width: 694px;
   height: 330px;
   float: left;
