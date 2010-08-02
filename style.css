@@ -335,25 +335,22 @@ div.contentright a{
   background: url(resources/content-box/content-box-button-sprite.jpg) no-repeat;
 }
 
-div.contentright a{
-  text-decoration: none;
-}
-
-div.contentright a span{
+a.training_button{
   display: block;
-  padding-top: 10px;
-  padding-left: 15px;
-  padding-right: 50px;
   text-decoration: none;
 }
+a.training_button span{
+  display: block;
+  padding: 10px 50px 0 20px;
+}
 
-div.contentright a: hover{
+a.training_button:hover {
   background-position: 0 -57px;
   color: white;
   text-shadow: 0px 1px #000;
 }
 
-div.contentright a: active{
+a.training_button:active {
   background-position: 0 -114px;
   color: white;
   text-shadow: 0px -1px #000;
