@@ -68,6 +68,15 @@ ul#menu{
   float: left;
   width: 114px;
   margin-top: 85px;
+  height: 44px;
+}
+
+#menu li:hover {
+  background: url(resources/menu-bkg-sprite.png) no-repeat center -3px;
+}
+
+#menu li:active, #menu li.current {
+  background: url(resources/menu-bkg-sprite.png) no-repeat center -43px;
 }
 
 #menu li.topdivider{
