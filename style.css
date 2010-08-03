@@ -99,7 +99,7 @@ ul#menu{
 #body{
   width: 100%;
   min-width: 930px;
-  height: 495px;
+  height: 515px;
   margin: 0 auto;
   background: url(resources/main-template/bkg/bkg-stripes.jpg) repeat;
 }
@@ -368,25 +368,73 @@ a.training_button:active {
 /*contact page*/
 
 #contactleft{
-
-  font-family: arial;
   height: 230px;
+  margin-top:-40px;
   float: left;
-  color: #81CA95;
 }
 
+#name{
+  font: bold 30px arial;
+  color: #81C593;
+  text-shadow:0 2px black;
+}
+#name span{
+  color: white;
+  font-weight: normal;
+}
+#title{
+  font: 16px arial;
+  color: #B1B2B5;
+  text-shadow: 0 2px black;
+  margin-top: 5px;
+}
 
+#contact_info{
+  font: bold 20px arial;
+  color: #81C593;
+  margin-top: 30px;
+}
+#contact_info li{
+  display:block;
+  margin-left: -5px;
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: 5px;
+}
+#contact_info li img{
+  display:block;
+  float:left;
+}
+#contact_info li span{
+  margin-left: 10px;
+}
 
 #contactright{
-  font-family: arial;
+  font: 14px arial;
   width: 556px;
   height: 450px;
   float: right;
-  color: #81CA95;
-  margin-top: -50px;
+  color: #81C593;
+  margin-top: -40px;
+}
+#contactright h2{
+  display:block;
+  height:36px;
+  font: 20px arial;
+  color:#81C593;
+}
+#contactright h2 img{
+  display:block;
+  float:left;
+}
+#contactright h2 span{
+  display:block;
+  line-height:36px;
+  margin-left: 45px;
 }
 #contact_form{
   background: rgba(0,0,0,0.5);
+  border-radius:5px;
   height:409px;
 }
 #name_input{
@@ -454,12 +502,16 @@ a.training_button:active {
   width:100%;
 }
 .checkbox{
-  font-size: 12px;
-  width:175px;
+  width:195px;
   height:20px;
   margin-top:5px;
   display:block;
   float:left;
+  color:#7B7B7B;
+}
+#other{
+  width:100px;
+  margin-left:-30px;
 }
 #message_input{
   float:left;
@@ -475,10 +527,19 @@ a.training_button:active {
   border-radius: 5px;
   background: black;
 }
-#submit{
+#contact_form #submit{
+  display:block;
   float:right;
-  margin-right:18px;
-  margin-top:17px;
+  margin-right:16px;
+  margin-top:14px;
+  border:1px solid #236D5B;
+  border-radius:5px;
+  background:url(resources/contact-page/button-bkg.jpg) repeat;
+  font: bold 16px arial;
+  color: black;
+  width:127px;
+  height:32px;
+  line-height:30px;
 }
 
 #contact_form input, #contact_form textarea{

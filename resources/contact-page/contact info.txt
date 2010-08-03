@@ -1,0 +1,33 @@
+Ron Bowes (make “Ron” bold and green)
+Arial 30px
+#81C593
+
+SECURITY CONSULTANT
+Arial 16px
+#B1B2B5
+
+Phone and E-mail Text
+Arial Bold 20px
+#81C593
+
+GIVE ALL ABOVE "text-shadow:0 2px black"
+
+
+
+Contact us Form
+background: rgba(0,0,0,.5);
+corner-radius: 5px;
+
+Label Text
+Arial 14px
+#81C593
+
+Input fields
+background:black;
+border:1px solid #2c2c2c;
+corner-radius:5px;
+
+Submit button
+border:1px solid #236d5b;
+background: button-bkg.jpg
+corner-radius:5px
