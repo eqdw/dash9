@@ -23,20 +23,37 @@
       <div id="bodylighting">
         <div class="content">
           <div id="contactleft">
-            <div id="contacttab">DASH9 SECURITY</div>
-            <div id="contactleftcontent">
-              <span>123456 Long Name Street
-                Fake City, Province
-                CANADA
-              </span>
-              <ul>
-                <li id="listphone"><span>123-456-7890</span></li>
-                <li id="listemail"><span>questions@dash9security.com</span></li>
-              </ul>
-            </div>
+
+            <h2 id="name">Ron <span>Bowes</span></h2>
+            <h3 id="title">Security Consultant</h3>
+            <ul id="contact_info">
+              <li id="phone">
+                <img src="resources/tmp_contact_icon.png" alt="foo" /> 444.333.2222
+              </li>
+              <li id="email">
+                <a href="mailto: ron@dash9site.com"><img src="resources/tmp_contact_icon.png" alt="foo" /> ron@dash9site.com </a>
+              </li>
+            </ul>
           </div>
           <div id="contactright">
-            &nbsp
+            <h2 id="contact_header"><img src="resources/tmp_speechbubble_icon.png" alt="foo" /> Request more information </h2>
+            <form id="contact_form" name="contact" action="#" method="post">
+              <div id="name_input"> Name: <input type="text" name="name" /> </div>
+              <div id="company_input"> Company: <input type="text" name="company" /> </div>
+              <div id="phone_input"> Phone: <input type="text" name="phone" /></div>
+              <div id="email_input"> E-mail: <input type="text" name="email" /></div>
+              <div id="checkboxes_input"> Interested in: 
+                <div>
+                  <div class="checkbox"> <input type="checkbox" name="interest" value="Vulnerability Assessment" /> Vulnerability Assessment </div>
+                  <div class="checkbox"> <input type="checkbox" name="interest" value="Incident Handling" /> Incident Handling </div>
+                  <div class="checkbox"> <input type="checkbox" name="interest" value="Other" /> Other </div>
+                  <div class="checkbox"> <input type="checkbox" name="interest" value="Penetration Testing" /> Penetration Testing </div>
+                  <div class="checkbox"> <input type="checkbox" name="interest" value="Training" /> Training </div>
+                </div>
+              </div>
+              <div id="message_input"> Additional Information: <textarea rows="5" cols="5" > </textarea> </div>
+              <input id="submit" type="image" src="resources/tmp_submit.png" alt="foo" />
+            </form>
           </div>
         </div>
       </div>
